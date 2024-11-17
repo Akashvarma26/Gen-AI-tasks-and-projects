@@ -29,7 +29,7 @@ def generate_text(question,engine,temperature,max_tokens):
     return response
 
 # Streamlit App
-st.title("𝙰𝙸𝚛𝚊 : 𝙷𝚎𝚕𝚙𝚏𝚞𝚕 𝙰𝙸 𝙰𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝")
+st.title("𝙰𝙸𝚛𝚊-v0.1 : 𝙷𝚎𝚕𝚙𝚏𝚞𝚕 𝙰𝙸 𝙰𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝")
 st.sidebar.title("Settings")
 engine=st.sidebar.selectbox("Select models",["llama-3.1-8b-instant","gemma2-9b-it","mixtral-8x7b-32768"])
 temperature=st.sidebar.slider("Temperature",min_value=0.0,max_value=2.0,value=1.0)
