@@ -22,3 +22,5 @@ langserve
 fastapi
 uvicorn
 sse_starlette
+gradio 
+typing-extensions
