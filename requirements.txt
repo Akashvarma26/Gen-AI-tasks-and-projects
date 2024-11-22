@@ -24,3 +24,4 @@ uvicorn
 sse_starlette
 gradio 
 typing-extensions
+duckduckgo-search
