@@ -25,3 +25,7 @@ sse_starlette
 gradio 
 typing-extensions
 duckduckgo-search
+validators
+unstructured
+pytube
+youtube_transcript_api
