@@ -35,4 +35,15 @@ responses, allowing the assistant to better understand and reference previous in
 ### AIra_and_lemansbot
 Built AIra-v0.1 which is assistant which many open source collection of LLMs. Developed a streamlit app for UI and changeable       
 parameters like temperature and max tokens. Also developed lemansbot which uses chat history and rag for answering simple lemans        
-questions.
+questions.          
+
+### Tools_and_agents
+Used different types of tools like SQL, Arxiv, wikipedia and custom ones and intialized Agents to use them.                 
+
+### text_summarize
+Used load_summarize_chain function to use different types of summarizing techniques for bigger text/pdf contents. Also          
+created a project to summarize youtube links using youtube tool.            
+                
+### mathgpt_and_codegpt
+Developed MathGPT using tools, agents and LLMMath chains to solve mathematical problems. Also developed CodeGPT using Qwen2.5-Coder-32B-Instruct       
+to solve coding problems.         
