@@ -13,7 +13,7 @@ os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
 st.set_page_config("Any Link Summarizer","🤖")
 st.title("Any Link Summarizer")
 st.subheader("Summarize URL")
-llm=ChatGroq(model="llama-3.1-70b-versatile")
+llm=ChatGroq(model="llama-3.1-70b-versatile",temperature=0.7)
 prompt_template="""
 Provide the summary of the following content in 500 words.\n\n
 content:{text}

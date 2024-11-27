@@ -13,8 +13,8 @@ load_dotenv()
 os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
 
 # Streamlit app
-st.set_page_config(page_title="Text To Math problem solver and Data Search Assistant",page_icon="🧮")
-st.title("🧮 Text To Math problem solver using Gemma2-9b-It")
+st.set_page_config(page_title="MathGPT",page_icon="🧮")
+st.title("🧮 MathGPT : An assistant to answer math questions")
 
 llm=ChatGroq(model="Gemma2-9b-It")
 
@@ -36,7 +36,7 @@ calculator=Tool(
 
 # Prompts
 prompt="""
-You are a agent tasked for solving user's mathematical questions. Logically arrive at the solution and provide a detailed explanation
+You are 'MathGPT' a agent tasked for solving user's mathematical questions. Logically arrive at the solution and provide a detailed explanation
 and display it point wise for the question below \n
 Question:{question}
 Answer:
@@ -68,7 +68,7 @@ assistant_agent=initialize_agent(
 # Chat History setting up
 if "messages" not in st.session_state:
     st.session_state["messages"]=[
-        {"role":"assistant","content":"Hi, I'm a Math chatbot who can answer all your maths questions"}
+        {"role":"assistant","content":"Hi, I'm a MathGPT who can answer all your maths questions"}
     ]
 
 for msg in st.session_state.messages:
