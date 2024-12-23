@@ -162,5 +162,7 @@ cython_debug/
 #.idea/
 
 *.pdf
+*.txt
+*.json
 multi_agents_crewai/db
 multi_agents_crewai/config.py

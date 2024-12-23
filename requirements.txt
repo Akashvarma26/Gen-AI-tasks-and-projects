@@ -30,3 +30,5 @@ unstructured
 pytube
 youtube_transcript_api
 numexpr
+pinecone-client
+pinecone-text
