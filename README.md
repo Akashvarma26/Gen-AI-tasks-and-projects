@@ -39,3 +39,6 @@ Developed MathGPT using tools, agents and LLMMath chains to solve mathematical p
 
 ### multi_agents_crewai
 Developed multi agent app to get info from youtube content and create it into a blog using yt tool using crewai library. It uses two agents one for researching and one for writing the blog.
+
+### hybrid_serach_rag
+Used pinecone Vector DB(Cloud service db) to perform hybrid search (Sparse and Dense). Used TFIDF(Sparse) and HF Embeddings(Dense) for Keyword and Semantic search techniques. Ranked them using Reciprocal Rank Fusion.
