@@ -35,4 +35,7 @@ Used different types of tools like SQL, Arxiv, wikipedia and custom ones and int
 Used load_summarize_chain function to use different types of summarizing techniques for bigger text/pdf contents. Also created a project to summarize youtube links using youtube tool.            
                 
 ### mathgpt_and_codegpt
-Developed MathGPT using tools, agents and LLMMath chains to solve mathematical problems. Also developed CodeGPT using Qwen2.5-Coder-32B-Instruct to solve coding problems.         
+Developed MathGPT using tools, agents and LLMMath chains to solve mathematical problems. Also developed CodeGPT using Qwen2.5-Coder-32B-Instruct to solve coding problems.  
+
+### multi_agents_crewai
+Developed multi agent app to get info from youtube content and create it into a blog using yt tool using crewai library. It uses two agents one for researching and one for writing the blog.
