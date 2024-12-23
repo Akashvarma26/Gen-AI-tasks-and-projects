@@ -161,4 +161,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-langchain_intro/Minor Project Report.pdf
+*.pdf
+multi_agents_crewai/db
+multi_agents_crewai/config.py
