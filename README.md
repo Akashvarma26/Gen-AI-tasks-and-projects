@@ -42,3 +42,6 @@ Developed multi agent app to get info from youtube content and create it into a 
 
 ### 📁 : hybrid_serach_rag
 Used pinecone Vector DB(Cloud service db) to perform hybrid search (Sparse and Dense). Used TFIDF(Sparse) and HF Embeddings(Dense) for Keyword and Semantic search techniques. Ranked them using Reciprocal Rank Fusion.
+
+### 📁 : finetune_lamini
+Using Lamini cloud we can easily finetune llm models like llama3 series and mistral series and test them in the cloud. It uses its own finetuning techniques like lora to change weights/parameters of llms. 
