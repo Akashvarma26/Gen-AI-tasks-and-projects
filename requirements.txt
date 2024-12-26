@@ -32,3 +32,5 @@ youtube_transcript_api
 numexpr
 pinecone-client
 pinecone-text
+langchain_experiment
+lamini
