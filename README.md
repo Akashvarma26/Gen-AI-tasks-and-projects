@@ -45,3 +45,6 @@ Used pinecone Vector DB(Cloud service db) to perform hybrid search (Sparse and D
 
 ### 📁 : finetune_lamini
 Using Lamini cloud we can easily finetune llm models like llama3 series and mistral series and test them in the cloud. It uses its own finetuning techniques like lora to change weights/parameters of llms. 
+
+### 📁 : langgraph
+Using LangGraph we can create any Generative AI application using graph workflow. 
